@@ -15,6 +15,6 @@ public class Exercise03 {
 
         int soma = number1 + number2;
 
-        System.out.printf("A soma entre %d e %d e igual a: %d", number1, number2, soma);
+        System.out.printf("A soma entre %d e %d e igual a ", number1, number2, soma);
     }
 }
