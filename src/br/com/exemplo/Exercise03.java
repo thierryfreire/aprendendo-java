@@ -13,8 +13,8 @@ public class Exercise03 {
         System.out.print("Informe o segundo número: ");
         int number2 = scanner.nextInt();
 
-        int soma = number1 + number2;
+        int sum = number1 + number2;
 
-        System.out.printf("A soma entre %d e %d e igual a ", number1, number2, soma);
+        System.out.printf("A soma entre %d e %d e igual a: %d", number1, number2, sum);
     }
 }
