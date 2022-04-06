@@ -21,7 +21,7 @@ public class Exercise04 {
 
         double average =(note1 + note2 + note3 + note4) /2;
 
-        System.out.printf("Sua media e de: %s", average);
+        System.out.printf("Sua media e de: %.2f", average);
 
     }
 }
