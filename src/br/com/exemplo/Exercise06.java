@@ -9,9 +9,9 @@ public class Exercise06 {
 
         System.out.print("Informe o valor da raio : ");
 
-        double ray = scanner.nextDouble();
+        double radius = scanner.nextDouble();
 
-        double area = 3.14159 * ray * ray;
+        double area = 3.14159 * radius * radius;
 
         System.out.printf("O valor da área e : %.2f", area);
     }
