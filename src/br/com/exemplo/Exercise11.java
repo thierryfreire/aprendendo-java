@@ -14,11 +14,11 @@ public class Exercise11 {
         int number2 = scanner.nextInt();
 
         System.out.print("Digite o terceiro número real:");
-        int realNumber = scanner.nextInt();
+        double realNumber = scanner.nextInt();
 
         double result1 = (number1 * 2) * number2 / 2;
         double result2 = number1 * 3 + realNumber;
-        double result3 = realNumber * 3 * 3;
+        double result3 = realNumber * realNumber * realNumber;
 
         System.out.printf("O produto do dobro do primeiro com metade do segundo:%.2f%n",result1 );
         System.out.printf("A soma do triplo do primeiro com o terceiro:%.2f%n",result2);
