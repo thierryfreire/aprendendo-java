@@ -10,14 +10,12 @@ public class Exercise15 {
         double hourValue = scanner.nextDouble();
 
         System.out.print("Digite o número de horas trabalhadas:");
-        double workerdHours = scanner.nextDouble();
+        double workedHours = scanner.nextDouble();
 
         System.out.print("Digite horas extras trabalhadas:");
         double overtimeWorked = scanner.nextDouble();
 
-        double overtime = overtimeWorked / 60;
-
-        double grossSalary = ( workerdHours + overtime) * hourValue;
+        double grossSalary = ( workedHours + overtimeWorked) * hourValue;
 
         double incometax = grossSalary * 11 / 100;
         double inss = grossSalary * 8 / 100;
