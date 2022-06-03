@@ -14,11 +14,8 @@ public class Exercise16 {
         int canPrice = 80;
 
         double liters = areaSize / inkCover;
-        double quantityCans = liters / canCapacity;
+        double quantityCans = Math.ceil(liters / canCapacity);
 
-        if (liters % canCapacity != 0) {
-            quantityCans += 1;
-        }
         double amount = quantityCans * canPrice;
 
         System.out.printf("Quantidade necessária de litros: %.2f%n", liters);
