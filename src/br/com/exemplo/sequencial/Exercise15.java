@@ -1,4 +1,4 @@
-package br.com.exemplo;
+package br.com.exemplo.sequencial;
 
 import java.util.Scanner;
 

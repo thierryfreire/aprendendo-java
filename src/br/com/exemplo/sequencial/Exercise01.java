@@ -1,4 +1,4 @@
-package br.com.exemplo;
+package br.com.exemplo.sequencial;
 
 public class Exercise01 {
     public static void main(String[] args) {
