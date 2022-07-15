@@ -1,4 +1,4 @@
-package br.com.exemplo.listas.exercicio2;
+package br.com.exemplo.listas.exercicios;
 
 import java.util.Scanner;
 
