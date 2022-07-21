@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Exercicio3 {
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
 
         int[] notas = new int[4];
@@ -27,6 +28,6 @@ public class Exercicio3 {
         }
         double media = soma / 4.0;
 
-        System.out.print("A media é: " + media);
+        System.out.println("A media é:"+ media);
     }
 }

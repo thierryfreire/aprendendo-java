@@ -3,7 +3,7 @@ package br.com.exemplo.listas.exercicios;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Exercicio4 {
+public class    Exercicio4 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
