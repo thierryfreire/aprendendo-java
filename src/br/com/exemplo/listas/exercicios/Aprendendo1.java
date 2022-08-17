@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Apredendo {
+public class Aprendendo1 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -12,10 +12,10 @@ public class Apredendo {
         List<Double> precoGasolina = new ArrayList<>();
         List<Double> litragem = new ArrayList<>();
 
-        while (true){
+        while (true) {
             double preco = scanner.nextDouble();
 
-            if (preco == 0){
+            if (preco == 0) {
                 break;
             }
             precoGasolina.add(preco);
@@ -31,7 +31,7 @@ public class Apredendo {
 
         double somaLitros = 0;
 
-        for (double litros : litragem){
+        for (double litros : litragem) {
             somaLitros += litros;
         }
 
